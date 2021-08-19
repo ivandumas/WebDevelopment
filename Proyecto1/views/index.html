@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
 
-<body>
-    <p>Hola mundo</p>
-</body>
+  <body>
+    <p style="background-color: lightgoldenrodyellow">Paragraph</p>
+    <div id="div1" title="Headers" style="background-color: lightpink">
+      <p title="ayuda" id="p1">Hola Mundo</p>
+      <h1 class="clase1">Header 1</h1>
+      <h2>Header 2</h2>
+      <h3>Header 3</h3>
+      <h4>Header 4</h4>
+      <h5>Header 5</h5>
+      <h6>Header 6</h6>
+    </div>
+    <img
+      src="../images/Slide.png"
+      title="Nintendo - Slide"
+      alt="Nintendo - Slide"
+      width="300"
+      height="200"
+      id="img1"
+    />
+    <br />
 
+    <a href="https://www.google.com.mx">Google</a>
+    <p class="clase1" >
+      Este es un mensaje
+      <span style="background-color: mediumorchid" id="p2">importante</span>
+    </p>
+
+    <button onclick=function1()>Click here</button> <br/>
+    <button ondblclick="document.getElementById('p2').innerHTML = 'no importante'">Cambio</button> <br/>
+    <button onmouseover="document.getElementById('img1').src = '../images/snes.png'">Mouse</button> <br/>
+    <button onclick="document.getElementById('div1').style.backgroundColor='green'">Click</button>
+    
+    <script src="../js/script.js"></script>
+  </body>
 </html>
