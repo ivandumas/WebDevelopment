@@ -1,0 +1,157 @@
+@import "bootstrap-5.1.1/scss/functions";
+@import "bootstrap-5.1.1/scss/variables";
+@import "bootstrap-5.1.1/scss/utilities";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": (
+    rfs: true,
+    property: font-size,
+    class: fs,
+    values: $font-sizes
+  )
+  )
+);
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
+$h1-font-size:                $font-size-base * 4.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+
+.classDiv{
+    background-image: url("/public/images/BackgroundInicio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.banner{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.menu > a{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.menu > a:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, .10);
+    border-radius: 5px;
+}
+
+.textoInicio{
+    padding-top: 7%;
+    padding-left: 10%;
+
+}
+
+.textoInicio > p{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+.textoInicio > h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 7rem;
+
+}
+
+.textoInicio3{
+    padding-top: 7%;
+
+
+}
+
+.textoInicio3 > p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+.textoInicio3 > h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 7rem;
+
+}
+
+.btn1,.btn2{
+    background-color: #09c7fd;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+
+.btn2:hover{
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+
+.menuH > p{
+    color: grey;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.menuH > p:hover{
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.menuDown{
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.h1{
+    font-size: calc(1.525rem + 3.3vw);
+}
