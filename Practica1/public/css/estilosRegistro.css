@@ -1,4 +1,4 @@
-.classDiv2{
+.classDiv2 {
     background-image: url("../images/03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,28 +6,26 @@
     min-height: 100vh;
 }
 
-.textoInicio2{
+.textoInicio2 {
     padding-top: 3%;
-
 }
 
-.textoInicio2 > p{
+.textoInicio2>p {
     font-family: 'Quicksand', sans-serif;
     color: white;
     font-size: 2rem;
     font-weight: 300;
-
 }
 
-.textoInicio2 > h1{
+.textoInicio2>h1 {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     color: white;
     font-size: 7rem;
-
 }
 
-.form-label, .form-check{
+.form-label,
+.form-check {
     color: white;
     font-family: 'Quicksand', sans-serif;
 }
