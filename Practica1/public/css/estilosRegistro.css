@@ -1,5 +1,5 @@
 .classDiv2{
-    background-image: url("/public/images/03.jpg");
+    background-image: url("../images/03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
