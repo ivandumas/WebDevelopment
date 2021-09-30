@@ -1,0 +1,3 @@
+[submodule "equipoDinamita"]
+	path = equipoDinamita
+	url = https://github.com/ivandumas/equipoDinamita
