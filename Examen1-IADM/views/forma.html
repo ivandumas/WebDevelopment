@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Formulario del Examen 1</title>
+  </head>
+  <body>
+<!-- Aqui va la pagina -->
+
+<div class="container-md">
+  <h1>Hola profe, aquí esta mi formulario :D ¿Ya saqué 100?</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem debitis nostrum nobis aut recusandae, officiis animi laudantium doloremque fugit magni accusamus itaque temporibus, ut facilis blanditiis ullam deleniti. Et, pariatur!</p>
+  <form method="POST" action="../examen/validacion">
+      <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" id="Nombre" name="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" id="Nombre" name="Apellido">
+          </div>
+        </div>
+
+        <input type="email" class="form-control" id="tuCorreo" placeholder="tuCorreo" name="tuCorreo">
+        <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="toContraseña">
+
+      <input type="submit" class="btn btn-primary">Enviar mi Formulario</button>
+      <input type="reset" class="btn btn-danger">Borrar todo</button>
+    </form>
+
+</div>
+
+
+<!-- Aqui va la pagina -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
