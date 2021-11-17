@@ -1,3 +1,6 @@
 [submodule "equipoDinamita"]
 	path = equipoDinamita
 	url = https://github.com/ivandumas/equipoDinamita
+[submodule "tc2026-react"]
+	path = tc2026-react
+	url = https://github.com/ivandumas/tc2026-react
